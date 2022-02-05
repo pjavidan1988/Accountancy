@@ -64,6 +64,7 @@
             this.Controls.Add(this.panelEx1);
             this.Name = "FrmMain";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
         }

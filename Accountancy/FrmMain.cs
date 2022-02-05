@@ -16,5 +16,10 @@ namespace Accountancy
         {
             InitializeComponent();
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            new FrmSplash().ShowDialog();
+        }
     }
 }
